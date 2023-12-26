@@ -1,4 +1,4 @@
-export const en = {
+yexport const en = {
   translation: {
     frontEndDeveloper: "Front end developer",
     me: "Milad Joodi",
@@ -10,11 +10,11 @@ export const en = {
     iAm2: "I know the only progress way is hard work and smart , and i believe this ...",
     mySkills: "My skills",
     myProjects: "My Projects",
-    digiHosein: "Digi Hosein",
+    digiHosein: "Empty",
     digiHoseinDesc: `There is a perfect online shop with a lot product to buy ^^`,
-    musicCity: "Music City",
+    musicCity: "Playlist",
     musicCityDesc: "A lot of music for listen and enjoy !",
-    movieCity: "Movie City",
+    movieCity: "Movie",
     movieCityDesc: "there is a multi language movie site for you ^^",
     contacts: "Contacts me",
   },
