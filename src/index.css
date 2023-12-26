@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: VazirFont;
+  src: url(./assets/fonts/Vazir.woff);
+}
+
+* {
+  scroll-behavior: smooth;
+  scrollbar-width: 0px;
+  font-family: "VazirFont";
+}
+@keyframes fadeShow {
+  from {
+    transform: translateY(-5rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.fadeShow {
+  animation: fadeShow 0.5s;
+}
+@keyframes fadeShow1 {
+  0% {
+    transform: translateX(-5rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.fadeShow1 {
+  animation: fadeShow1 1s;
+}
+
+@keyframes fadeShow2 {
+  1% {
+    transform: translateY(-5rem);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-5rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.fadeShow2 {
+  animation: fadeShow2 1s;
+}
+
+@keyframes fadeShow3 {
+  1% {
+    transform: translateY(5rem);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(5rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.fadeShow3 {
+  animation: fadeShow3 1.8s;
+}
+.fp-watermark {
+  display: none;
+}
+
+@keyframes infiniteAnimation {
+  0% {
+    scale: 1;
+    rotate: 0deg;
+  }
+  50% {
+    scale: 1.05;
+    rotate: -2deg;
+  }
+  100% {
+    scale: 1;
+    rotate: 0deg;
+  }
+}
+.infiniteAnimation {
+  animation: infiniteAnimation 10s infinite;
+}
+
+@keyframes skillImageAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.skillImageAnimation {
+  animation: skillImageAnimation 3s infinite;
+}
+#fp-nav ul li a span{
+  @apply !bg-primary !important
+}
