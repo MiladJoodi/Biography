@@ -140,7 +140,7 @@ function App() {
                           : "lg:right-[65%]"
                       } w-[12rem] h-[12rem] right-0   lg:bottom-32 mb-auto mt-auto mr-auto ml-auto left-0 lg:mr-auto lg:ml-auto lg:left-auto bottom-0`}
                     >
-                      <img className="profile" src={Myself} alt="" />
+                      <img className="w-full" src={Myself} alt="" />
                     </div>
                   </div>
 
